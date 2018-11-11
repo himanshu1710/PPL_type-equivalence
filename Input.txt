@@ -1,0 +1,24 @@
+int a,b;
+int c;
+float x,y;
+float z;
+array<int> ^p = gcnew array<int> (3);
+array<int> ^q = gcnew array<int> (3);
+array<int> ^abc = gcnew array<int> (4);
+array<int> ^s=^q;
+struct foo{
+	int h;
+	string i;
+};
+struct cat{
+	int d;
+	string f;
+};
+struct foo aa,bb;
+struct cat cc;
+struct foo1{
+	int h;
+	string i;
+	char za;
+};
+struct foo1 dd,ee;
